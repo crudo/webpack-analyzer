@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Webpack build analyzer",
   "main": "index.js",
+  "bin": "./index.js",
   "scripts": {
     "start": "node index.js"
   },
