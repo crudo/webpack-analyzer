@@ -1,10 +1,10 @@
 {
   "name": "webpack-analyzer",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Webpack build analyzer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/crudo/webpack-analyzer/issues"
   },
-  "homepage": "https://github.com/crudo/webpack-analyzer#readme"
+  "homepage": "https://github.com/crudo/webpack-analyzer#readme",
+  "dependencies": {
+    "colors": "1.1.2",
+    "commander": "2.9.0",
+    "filesize": "3.2.1",
+    "repeat-string": "1.5.4"
+  }
 }
