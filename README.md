@@ -1,13 +1,16 @@
 # webpack-analyzer
 
+## Install
+
 ```
-WARNING: alpha version
+npm install -g webpack-analyzer
 ```
 
 ## Usage
 
-1. App expects **stats.json** in the same directory.
-2. Run **node index.js**
+```
+webpack-analyzer stats.json
+```
 
 ## TODO
 

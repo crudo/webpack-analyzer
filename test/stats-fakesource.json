@@ -1,0 +1,2027 @@
+{
+    "errors": [
+
+    ],
+    "warnings": [
+
+    ],
+    "version": "1.12.2",
+    "hash": "6ff551fdcaaefe6f8bc9",
+    "time": 1830,
+    "publicPath": "",
+    "assetsByChunkName": {
+        "main": "./dist/fakesource.min.js"
+    },
+    "assets": [
+        {
+            "name": "./dist/fakesource.min.js",
+            "size": 20658,
+            "chunks": [
+                0
+            ],
+            "chunkNames": [
+                "main"
+            ],
+            "emitted": true
+        }
+    ],
+    "chunks": [
+        {
+            "id": 0,
+            "rendered": true,
+            "initial": true,
+            "entry": true,
+            "extraAsync": false,
+            "size": 81212,
+            "names": [
+                "main"
+            ],
+            "files": [
+                "./dist/fakesource.min.js"
+            ],
+            "hash": "5237504bbc31791e6c53",
+            "parents": [
+
+            ],
+            "origins": [
+                {
+                    "moduleId": 0,
+                    "module": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/fakesource.js",
+                    "moduleIdentifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/fakesource.js",
+                    "moduleName": "./src/fakesource.js",
+                    "loc": "",
+                    "name": "main",
+                    "reasons": [
+
+                    ]
+                }
+            ]
+        }
+    ],
+    "modules": [
+        {
+            "id": 0,
+            "identifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/fakesource.js",
+            "name": "./src/fakesource.js",
+            "index": 0,
+            "index2": 45,
+            "size": 2108,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": null,
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+
+            ],
+            "source": ""
+        },
+        {
+            "id": 1,
+            "identifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/xhr.js",
+            "name": "./src/xhr.js",
+            "index": 1,
+            "index2": 35,
+            "size": 8651,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/fakesource.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 0,
+                    "moduleIdentifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/fakesource.js",
+                    "module": "./src/fakesource.js",
+                    "moduleName": "./src/fakesource.js",
+                    "type": "cjs require",
+                    "userRequest": "./xhr",
+                    "loc": "10:11-27"
+                },
+                {
+                    "moduleId": 37,
+                    "moduleIdentifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/user.js",
+                    "module": "./src/user.js",
+                    "moduleName": "./src/user.js",
+                    "type": "cjs require",
+                    "userRequest": "./xhr",
+                    "loc": "18:11-27"
+                },
+                {
+                    "moduleId": 38,
+                    "moduleIdentifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/metadata.js",
+                    "module": "./src/metadata.js",
+                    "moduleName": "./src/metadata.js",
+                    "type": "cjs require",
+                    "userRequest": "./xhr",
+                    "loc": "27:11-27"
+                },
+                {
+                    "moduleId": 44,
+                    "moduleIdentifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/execution.js",
+                    "module": "./src/execution.js",
+                    "moduleName": "./src/execution.js",
+                    "type": "cjs require",
+                    "userRequest": "./xhr",
+                    "loc": "15:11-27"
+                },
+                {
+                    "moduleId": 45,
+                    "moduleIdentifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/project.js",
+                    "module": "./src/project.js",
+                    "moduleName": "./src/project.js",
+                    "type": "cjs require",
+                    "userRequest": "./xhr",
+                    "loc": "21:11-27"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 2,
+            "identifier": "external {\"root\":\"jQuery\",\"commonjs\":\"jquery\",\"commonjs2\":\"jquery\",\"amd\":\"jquery\"}",
+            "name": "external {\"root\":\"jQuery\",\"commonjs\":\"jquery\",\"commonjs2\":\"jquery\",\"amd\":\"jquery\"}",
+            "index": 2,
+            "index2": 0,
+            "size": 42,
+            "cacheable": false,
+            "built": false,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/xhr.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 1,
+                    "moduleIdentifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/xhr.js",
+                    "module": "./src/xhr.js",
+                    "moduleName": "./src/xhr.js",
+                    "type": "cjs require",
+                    "userRequest": "jquery",
+                    "loc": "15:14-31"
+                },
+                {
+                    "moduleId": 37,
+                    "moduleIdentifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/user.js",
+                    "module": "./src/user.js",
+                    "moduleName": "./src/user.js",
+                    "type": "cjs require",
+                    "userRequest": "jquery",
+                    "loc": "14:14-31"
+                },
+                {
+                    "moduleId": 38,
+                    "moduleIdentifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/metadata.js",
+                    "module": "./src/metadata.js",
+                    "moduleName": "./src/metadata.js",
+                    "type": "cjs require",
+                    "userRequest": "jquery",
+                    "loc": "23:14-31"
+                },
+                {
+                    "moduleId": 44,
+                    "moduleIdentifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/execution.js",
+                    "module": "./src/execution.js",
+                    "moduleName": "./src/execution.js",
+                    "type": "cjs require",
+                    "userRequest": "jquery",
+                    "loc": "11:14-31"
+                },
+                {
+                    "moduleId": 45,
+                    "moduleIdentifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/project.js",
+                    "module": "./src/project.js",
+                    "moduleName": "./src/project.js",
+                    "type": "cjs require",
+                    "userRequest": "jquery",
+                    "loc": "17:14-31"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "identifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/config.js",
+            "name": "./src/config.js",
+            "index": 3,
+            "index2": 1,
+            "size": 1222,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/fakesource.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 0,
+                    "moduleIdentifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/fakesource.js",
+                    "module": "./src/fakesource.js",
+                    "moduleName": "./src/fakesource.js",
+                    "type": "cjs require",
+                    "userRequest": "./config",
+                    "loc": "30:14-33"
+                },
+                {
+                    "moduleId": 1,
+                    "moduleIdentifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/xhr.js",
+                    "module": "./src/xhr.js",
+                    "moduleName": "./src/xhr.js",
+                    "type": "cjs require",
+                    "userRequest": "./config",
+                    "loc": "19:14-33"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 4,
+            "identifier": "fakesource-js/node_modules/lodash/lang/isPlainObject.js",
+            "name": "./~/lodash/lang/isPlainObject.js",
+            "index": 4,
+            "index2": 19,
+            "size": 2225,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/xhr.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 1,
+                    "moduleIdentifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/xhr.js",
+                    "module": "./src/xhr.js",
+                    "moduleName": "./src/xhr.js",
+                    "type": "cjs require",
+                    "userRequest": "lodash/lang/isPlainObject",
+                    "loc": "23:31-67"
+                },
+                {
+                    "moduleId": 25,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/baseMergeDeep.js",
+                    "module": "./~/lodash/internal/baseMergeDeep.js",
+                    "moduleName": "./~/lodash/internal/baseMergeDeep.js",
+                    "type": "cjs require",
+                    "userRequest": "../lang/isPlainObject",
+                    "loc": "5:20-52"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 5,
+            "identifier": "fakesource-js/node_modules/lodash/internal/baseForIn.js",
+            "name": "./~/lodash/internal/baseForIn.js",
+            "index": 5,
+            "index2": 18,
+            "size": 478,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/lang/isPlainObject.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 4,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/lang/isPlainObject.js",
+                    "module": "./~/lodash/lang/isPlainObject.js",
+                    "moduleName": "./~/lodash/lang/isPlainObject.js",
+                    "type": "cjs require",
+                    "userRequest": "../internal/baseForIn",
+                    "loc": "1:16-48"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 6,
+            "identifier": "fakesource-js/node_modules/lodash/internal/baseFor.js",
+            "name": "./~/lodash/internal/baseFor.js",
+            "index": 6,
+            "index2": 5,
+            "size": 608,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/internal/baseForIn.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 5,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/baseForIn.js",
+                    "module": "./~/lodash/internal/baseForIn.js",
+                    "moduleName": "./~/lodash/internal/baseForIn.js",
+                    "type": "cjs require",
+                    "userRequest": "./baseFor",
+                    "loc": "1:14-34"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 7,
+            "identifier": "fakesource-js/node_modules/lodash/internal/createBaseFor.js",
+            "name": "./~/lodash/internal/createBaseFor.js",
+            "index": 7,
+            "index2": 4,
+            "size": 709,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/internal/baseFor.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 6,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/baseFor.js",
+                    "module": "./~/lodash/internal/baseFor.js",
+                    "moduleName": "./~/lodash/internal/baseFor.js",
+                    "type": "cjs require",
+                    "userRequest": "./createBaseFor",
+                    "loc": "1:20-46"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 8,
+            "identifier": "fakesource-js/node_modules/lodash/internal/toObject.js",
+            "name": "./~/lodash/internal/toObject.js",
+            "index": 8,
+            "index2": 3,
+            "size": 308,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/internal/baseGet.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 7,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/createBaseFor.js",
+                    "module": "./~/lodash/internal/createBaseFor.js",
+                    "moduleName": "./~/lodash/internal/createBaseFor.js",
+                    "type": "cjs require",
+                    "userRequest": "./toObject",
+                    "loc": "1:15-36"
+                },
+                {
+                    "moduleId": 41,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/baseGet.js",
+                    "module": "./~/lodash/internal/baseGet.js",
+                    "moduleName": "./~/lodash/internal/baseGet.js",
+                    "type": "cjs require",
+                    "userRequest": "./toObject",
+                    "loc": "1:15-36"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 9,
+            "identifier": "fakesource-js/node_modules/lodash/lang/isObject.js",
+            "name": "./~/lodash/lang/isObject.js",
+            "index": 9,
+            "index2": 2,
+            "size": 732,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/lang/isFunction.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 8,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/toObject.js",
+                    "module": "./~/lodash/internal/toObject.js",
+                    "moduleName": "./~/lodash/internal/toObject.js",
+                    "type": "cjs require",
+                    "userRequest": "../lang/isObject",
+                    "loc": "1:15-42"
+                },
+                {
+                    "moduleId": 10,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/object/keysIn.js",
+                    "module": "./~/lodash/object/keysIn.js",
+                    "moduleName": "./~/lodash/object/keysIn.js",
+                    "type": "cjs require",
+                    "userRequest": "../lang/isObject",
+                    "loc": "5:15-42"
+                },
+                {
+                    "moduleId": 20,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/lang/isFunction.js",
+                    "module": "./~/lodash/lang/isFunction.js",
+                    "moduleName": "./~/lodash/lang/isFunction.js",
+                    "type": "cjs require",
+                    "userRequest": "./isObject",
+                    "loc": "1:15-36"
+                },
+                {
+                    "moduleId": 23,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/baseMerge.js",
+                    "module": "./~/lodash/internal/baseMerge.js",
+                    "moduleName": "./~/lodash/internal/baseMerge.js",
+                    "type": "cjs require",
+                    "userRequest": "../lang/isObject",
+                    "loc": "5:15-42"
+                },
+                {
+                    "moduleId": 30,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/object/keys.js",
+                    "module": "./~/lodash/object/keys.js",
+                    "moduleName": "./~/lodash/object/keys.js",
+                    "type": "cjs require",
+                    "userRequest": "../lang/isObject",
+                    "loc": "3:15-42"
+                },
+                {
+                    "moduleId": 35,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/isIterateeCall.js",
+                    "module": "./~/lodash/internal/isIterateeCall.js",
+                    "moduleName": "./~/lodash/internal/isIterateeCall.js",
+                    "type": "cjs require",
+                    "userRequest": "../lang/isObject",
+                    "loc": "3:15-42"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 10,
+            "identifier": "fakesource-js/node_modules/lodash/object/keysIn.js",
+            "name": "./~/lodash/object/keysIn.js",
+            "index": 10,
+            "index2": 17,
+            "size": 1658,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/internal/baseForIn.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 5,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/baseForIn.js",
+                    "module": "./~/lodash/internal/baseForIn.js",
+                    "moduleName": "./~/lodash/internal/baseForIn.js",
+                    "type": "cjs require",
+                    "userRequest": "../object/keysIn",
+                    "loc": "2:13-40"
+                },
+                {
+                    "moduleId": 28,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/lang/toPlainObject.js",
+                    "module": "./~/lodash/lang/toPlainObject.js",
+                    "moduleName": "./~/lodash/lang/toPlainObject.js",
+                    "type": "cjs require",
+                    "userRequest": "../object/keysIn",
+                    "loc": "2:13-40"
+                },
+                {
+                    "moduleId": 31,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/shimKeys.js",
+                    "module": "./~/lodash/internal/shimKeys.js",
+                    "moduleName": "./~/lodash/internal/shimKeys.js",
+                    "type": "cjs require",
+                    "userRequest": "../object/keysIn",
+                    "loc": "5:13-40"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 11,
+            "identifier": "fakesource-js/node_modules/lodash/lang/isArguments.js",
+            "name": "./~/lodash/lang/isArguments.js",
+            "index": 11,
+            "index2": 11,
+            "size": 963,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/lang/isPlainObject.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 4,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/lang/isPlainObject.js",
+                    "module": "./~/lodash/lang/isPlainObject.js",
+                    "moduleName": "./~/lodash/lang/isPlainObject.js",
+                    "type": "cjs require",
+                    "userRequest": "./isArguments",
+                    "loc": "2:18-42"
+                },
+                {
+                    "moduleId": 10,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/object/keysIn.js",
+                    "module": "./~/lodash/object/keysIn.js",
+                    "moduleName": "./~/lodash/object/keysIn.js",
+                    "type": "cjs require",
+                    "userRequest": "../lang/isArguments",
+                    "loc": "1:18-48"
+                },
+                {
+                    "moduleId": 25,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/baseMergeDeep.js",
+                    "module": "./~/lodash/internal/baseMergeDeep.js",
+                    "moduleName": "./~/lodash/internal/baseMergeDeep.js",
+                    "type": "cjs require",
+                    "userRequest": "../lang/isArguments",
+                    "loc": "2:18-48"
+                },
+                {
+                    "moduleId": 31,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/shimKeys.js",
+                    "module": "./~/lodash/internal/shimKeys.js",
+                    "moduleName": "./~/lodash/internal/shimKeys.js",
+                    "type": "cjs require",
+                    "userRequest": "../lang/isArguments",
+                    "loc": "1:18-48"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 12,
+            "identifier": "fakesource-js/node_modules/lodash/internal/isArrayLike.js",
+            "name": "./~/lodash/internal/isArrayLike.js",
+            "index": 12,
+            "index2": 9,
+            "size": 372,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/lang/isArguments.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 11,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/lang/isArguments.js",
+                    "module": "./~/lodash/lang/isArguments.js",
+                    "moduleName": "./~/lodash/lang/isArguments.js",
+                    "type": "cjs require",
+                    "userRequest": "../internal/isArrayLike",
+                    "loc": "1:18-52"
+                },
+                {
+                    "moduleId": 23,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/baseMerge.js",
+                    "module": "./~/lodash/internal/baseMerge.js",
+                    "moduleName": "./~/lodash/internal/baseMerge.js",
+                    "type": "cjs require",
+                    "userRequest": "./isArrayLike",
+                    "loc": "4:18-42"
+                },
+                {
+                    "moduleId": 25,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/baseMergeDeep.js",
+                    "module": "./~/lodash/internal/baseMergeDeep.js",
+                    "moduleName": "./~/lodash/internal/baseMergeDeep.js",
+                    "type": "cjs require",
+                    "userRequest": "./isArrayLike",
+                    "loc": "4:18-42"
+                },
+                {
+                    "moduleId": 30,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/object/keys.js",
+                    "module": "./~/lodash/object/keys.js",
+                    "moduleName": "./~/lodash/object/keys.js",
+                    "type": "cjs require",
+                    "userRequest": "../internal/isArrayLike",
+                    "loc": "2:18-52"
+                },
+                {
+                    "moduleId": 35,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/isIterateeCall.js",
+                    "module": "./~/lodash/internal/isIterateeCall.js",
+                    "moduleName": "./~/lodash/internal/isIterateeCall.js",
+                    "type": "cjs require",
+                    "userRequest": "./isArrayLike",
+                    "loc": "1:18-42"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 13,
+            "identifier": "fakesource-js/node_modules/lodash/internal/getLength.js",
+            "name": "./~/lodash/internal/getLength.js",
+            "index": 13,
+            "index2": 7,
+            "size": 440,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/internal/isArrayLike.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 12,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/isArrayLike.js",
+                    "module": "./~/lodash/internal/isArrayLike.js",
+                    "moduleName": "./~/lodash/internal/isArrayLike.js",
+                    "type": "cjs require",
+                    "userRequest": "./getLength",
+                    "loc": "1:16-38"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 14,
+            "identifier": "fakesource-js/node_modules/lodash/internal/baseProperty.js",
+            "name": "./~/lodash/internal/baseProperty.js",
+            "index": 14,
+            "index2": 6,
+            "size": 351,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/internal/getLength.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 13,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/getLength.js",
+                    "module": "./~/lodash/internal/getLength.js",
+                    "moduleName": "./~/lodash/internal/getLength.js",
+                    "type": "cjs require",
+                    "userRequest": "./baseProperty",
+                    "loc": "1:19-44"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 15,
+            "identifier": "fakesource-js/node_modules/lodash/internal/isLength.js",
+            "name": "./~/lodash/internal/isLength.js",
+            "index": 15,
+            "index2": 8,
+            "size": 644,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/lang/isArray.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 10,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/object/keysIn.js",
+                    "module": "./~/lodash/object/keysIn.js",
+                    "moduleName": "./~/lodash/object/keysIn.js",
+                    "type": "cjs require",
+                    "userRequest": "../internal/isLength",
+                    "loc": "4:15-46"
+                },
+                {
+                    "moduleId": 12,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/isArrayLike.js",
+                    "module": "./~/lodash/internal/isArrayLike.js",
+                    "moduleName": "./~/lodash/internal/isArrayLike.js",
+                    "type": "cjs require",
+                    "userRequest": "./isLength",
+                    "loc": "2:15-36"
+                },
+                {
+                    "moduleId": 17,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/lang/isArray.js",
+                    "module": "./~/lodash/lang/isArray.js",
+                    "moduleName": "./~/lodash/lang/isArray.js",
+                    "type": "cjs require",
+                    "userRequest": "../internal/isLength",
+                    "loc": "2:15-46"
+                },
+                {
+                    "moduleId": 27,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/lang/isTypedArray.js",
+                    "module": "./~/lodash/lang/isTypedArray.js",
+                    "moduleName": "./~/lodash/lang/isTypedArray.js",
+                    "type": "cjs require",
+                    "userRequest": "../internal/isLength",
+                    "loc": "1:15-46"
+                },
+                {
+                    "moduleId": 31,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/shimKeys.js",
+                    "module": "./~/lodash/internal/shimKeys.js",
+                    "moduleName": "./~/lodash/internal/shimKeys.js",
+                    "type": "cjs require",
+                    "userRequest": "./isLength",
+                    "loc": "4:15-36"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 16,
+            "identifier": "fakesource-js/node_modules/lodash/internal/isObjectLike.js",
+            "name": "./~/lodash/internal/isObjectLike.js",
+            "index": 16,
+            "index2": 10,
+            "size": 289,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/lang/isPlainObject.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 4,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/lang/isPlainObject.js",
+                    "module": "./~/lodash/lang/isPlainObject.js",
+                    "moduleName": "./~/lodash/lang/isPlainObject.js",
+                    "type": "cjs require",
+                    "userRequest": "../internal/isObjectLike",
+                    "loc": "3:19-54"
+                },
+                {
+                    "moduleId": 11,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/lang/isArguments.js",
+                    "module": "./~/lodash/lang/isArguments.js",
+                    "moduleName": "./~/lodash/lang/isArguments.js",
+                    "type": "cjs require",
+                    "userRequest": "../internal/isObjectLike",
+                    "loc": "2:19-54"
+                },
+                {
+                    "moduleId": 17,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/lang/isArray.js",
+                    "module": "./~/lodash/lang/isArray.js",
+                    "moduleName": "./~/lodash/lang/isArray.js",
+                    "type": "cjs require",
+                    "userRequest": "../internal/isObjectLike",
+                    "loc": "3:19-54"
+                },
+                {
+                    "moduleId": 19,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/lang/isNative.js",
+                    "module": "./~/lodash/lang/isNative.js",
+                    "moduleName": "./~/lodash/lang/isNative.js",
+                    "type": "cjs require",
+                    "userRequest": "../internal/isObjectLike",
+                    "loc": "2:19-54"
+                },
+                {
+                    "moduleId": 23,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/baseMerge.js",
+                    "module": "./~/lodash/internal/baseMerge.js",
+                    "moduleName": "./~/lodash/internal/baseMerge.js",
+                    "type": "cjs require",
+                    "userRequest": "./isObjectLike",
+                    "loc": "6:19-44"
+                },
+                {
+                    "moduleId": 27,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/lang/isTypedArray.js",
+                    "module": "./~/lodash/lang/isTypedArray.js",
+                    "moduleName": "./~/lodash/lang/isTypedArray.js",
+                    "type": "cjs require",
+                    "userRequest": "../internal/isObjectLike",
+                    "loc": "2:19-54"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 17,
+            "identifier": "fakesource-js/node_modules/lodash/lang/isArray.js",
+            "name": "./~/lodash/lang/isArray.js",
+            "index": 17,
+            "index2": 15,
+            "size": 1161,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/xhr.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 1,
+                    "moduleIdentifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/xhr.js",
+                    "module": "./src/xhr.js",
+                    "moduleName": "./src/xhr.js",
+                    "type": "cjs require",
+                    "userRequest": "lodash/lang/isArray",
+                    "loc": "31:25-55"
+                },
+                {
+                    "moduleId": 10,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/object/keysIn.js",
+                    "module": "./~/lodash/object/keysIn.js",
+                    "moduleName": "./~/lodash/object/keysIn.js",
+                    "type": "cjs require",
+                    "userRequest": "../lang/isArray",
+                    "loc": "2:14-40"
+                },
+                {
+                    "moduleId": 23,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/baseMerge.js",
+                    "module": "./~/lodash/internal/baseMerge.js",
+                    "moduleName": "./~/lodash/internal/baseMerge.js",
+                    "type": "cjs require",
+                    "userRequest": "../lang/isArray",
+                    "loc": "3:14-40"
+                },
+                {
+                    "moduleId": 25,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/baseMergeDeep.js",
+                    "module": "./~/lodash/internal/baseMergeDeep.js",
+                    "moduleName": "./~/lodash/internal/baseMergeDeep.js",
+                    "type": "cjs require",
+                    "userRequest": "../lang/isArray",
+                    "loc": "3:14-40"
+                },
+                {
+                    "moduleId": 31,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/shimKeys.js",
+                    "module": "./~/lodash/internal/shimKeys.js",
+                    "moduleName": "./~/lodash/internal/shimKeys.js",
+                    "type": "cjs require",
+                    "userRequest": "../lang/isArray",
+                    "loc": "2:14-40"
+                },
+                {
+                    "moduleId": 42,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/toPath.js",
+                    "module": "./~/lodash/internal/toPath.js",
+                    "moduleName": "./~/lodash/internal/toPath.js",
+                    "type": "cjs require",
+                    "userRequest": "../lang/isArray",
+                    "loc": "2:14-40"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 18,
+            "identifier": "fakesource-js/node_modules/lodash/internal/getNative.js",
+            "name": "./~/lodash/internal/getNative.js",
+            "index": 18,
+            "index2": 14,
+            "size": 456,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/lang/isArray.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 17,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/lang/isArray.js",
+                    "module": "./~/lodash/lang/isArray.js",
+                    "moduleName": "./~/lodash/lang/isArray.js",
+                    "type": "cjs require",
+                    "userRequest": "../internal/getNative",
+                    "loc": "1:16-48"
+                },
+                {
+                    "moduleId": 30,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/object/keys.js",
+                    "module": "./~/lodash/object/keys.js",
+                    "moduleName": "./~/lodash/object/keys.js",
+                    "type": "cjs require",
+                    "userRequest": "../internal/getNative",
+                    "loc": "1:16-48"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 19,
+            "identifier": "fakesource-js/node_modules/lodash/lang/isNative.js",
+            "name": "./~/lodash/lang/isNative.js",
+            "index": 19,
+            "index2": 13,
+            "size": 1291,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/internal/getNative.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 18,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/getNative.js",
+                    "module": "./~/lodash/internal/getNative.js",
+                    "moduleName": "./~/lodash/internal/getNative.js",
+                    "type": "cjs require",
+                    "userRequest": "../lang/isNative",
+                    "loc": "1:15-42"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 20,
+            "identifier": "fakesource-js/node_modules/lodash/lang/isFunction.js",
+            "name": "./~/lodash/lang/isFunction.js",
+            "index": 20,
+            "index2": 12,
+            "size": 1058,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/xhr.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 1,
+                    "moduleIdentifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/xhr.js",
+                    "module": "./src/xhr.js",
+                    "moduleName": "./src/xhr.js",
+                    "type": "cjs require",
+                    "userRequest": "lodash/lang/isFunction",
+                    "loc": "27:28-61"
+                },
+                {
+                    "moduleId": 19,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/lang/isNative.js",
+                    "module": "./~/lodash/lang/isNative.js",
+                    "moduleName": "./~/lodash/lang/isNative.js",
+                    "type": "cjs require",
+                    "userRequest": "./isFunction",
+                    "loc": "1:17-40"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 21,
+            "identifier": "fakesource-js/node_modules/lodash/internal/isIndex.js",
+            "name": "./~/lodash/internal/isIndex.js",
+            "index": 21,
+            "index2": 16,
+            "size": 778,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/object/keysIn.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 10,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/object/keysIn.js",
+                    "module": "./~/lodash/object/keysIn.js",
+                    "moduleName": "./~/lodash/object/keysIn.js",
+                    "type": "cjs require",
+                    "userRequest": "../internal/isIndex",
+                    "loc": "3:14-44"
+                },
+                {
+                    "moduleId": 31,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/shimKeys.js",
+                    "module": "./~/lodash/internal/shimKeys.js",
+                    "moduleName": "./~/lodash/internal/shimKeys.js",
+                    "type": "cjs require",
+                    "userRequest": "./isIndex",
+                    "loc": "3:14-34"
+                },
+                {
+                    "moduleId": 35,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/isIterateeCall.js",
+                    "module": "./~/lodash/internal/isIterateeCall.js",
+                    "moduleName": "./~/lodash/internal/isIterateeCall.js",
+                    "type": "cjs require",
+                    "userRequest": "./isIndex",
+                    "loc": "2:14-34"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 22,
+            "identifier": "fakesource-js/node_modules/lodash/object/merge.js",
+            "name": "./~/lodash/object/merge.js",
+            "index": 22,
+            "index2": 34,
+            "size": 1710,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/xhr.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 1,
+                    "moduleIdentifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/xhr.js",
+                    "module": "./src/xhr.js",
+                    "moduleName": "./src/xhr.js",
+                    "type": "cjs require",
+                    "userRequest": "lodash/object/merge",
+                    "loc": "35:25-55"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 23,
+            "identifier": "fakesource-js/node_modules/lodash/internal/baseMerge.js",
+            "name": "./~/lodash/internal/baseMerge.js",
+            "index": 23,
+            "index2": 28,
+            "size": 1923,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/object/merge.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 22,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/object/merge.js",
+                    "module": "./~/lodash/object/merge.js",
+                    "moduleName": "./~/lodash/object/merge.js",
+                    "type": "cjs require",
+                    "userRequest": "../internal/baseMerge",
+                    "loc": "1:16-48"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 24,
+            "identifier": "fakesource-js/node_modules/lodash/internal/arrayEach.js",
+            "name": "./~/lodash/internal/arrayEach.js",
+            "index": 24,
+            "index2": 20,
+            "size": 534,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/internal/baseMerge.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 23,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/baseMerge.js",
+                    "module": "./~/lodash/internal/baseMerge.js",
+                    "moduleName": "./~/lodash/internal/baseMerge.js",
+                    "type": "cjs require",
+                    "userRequest": "./arrayEach",
+                    "loc": "1:16-38"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 25,
+            "identifier": "fakesource-js/node_modules/lodash/internal/baseMergeDeep.js",
+            "name": "./~/lodash/internal/baseMergeDeep.js",
+            "index": 25,
+            "index2": 25,
+            "size": 2393,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/internal/baseMerge.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 23,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/baseMerge.js",
+                    "module": "./~/lodash/internal/baseMerge.js",
+                    "moduleName": "./~/lodash/internal/baseMerge.js",
+                    "type": "cjs require",
+                    "userRequest": "./baseMergeDeep",
+                    "loc": "2:20-46"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 26,
+            "identifier": "fakesource-js/node_modules/lodash/internal/arrayCopy.js",
+            "name": "./~/lodash/internal/arrayCopy.js",
+            "index": 26,
+            "index2": 21,
+            "size": 454,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/internal/baseMergeDeep.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 25,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/baseMergeDeep.js",
+                    "module": "./~/lodash/internal/baseMergeDeep.js",
+                    "moduleName": "./~/lodash/internal/baseMergeDeep.js",
+                    "type": "cjs require",
+                    "userRequest": "./arrayCopy",
+                    "loc": "1:16-38"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 27,
+            "identifier": "fakesource-js/node_modules/lodash/lang/isTypedArray.js",
+            "name": "./~/lodash/lang/isTypedArray.js",
+            "index": 27,
+            "index2": 22,
+            "size": 2499,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/internal/baseMerge.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 23,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/baseMerge.js",
+                    "module": "./~/lodash/internal/baseMerge.js",
+                    "moduleName": "./~/lodash/internal/baseMerge.js",
+                    "type": "cjs require",
+                    "userRequest": "../lang/isTypedArray",
+                    "loc": "7:19-50"
+                },
+                {
+                    "moduleId": 25,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/baseMergeDeep.js",
+                    "module": "./~/lodash/internal/baseMergeDeep.js",
+                    "moduleName": "./~/lodash/internal/baseMergeDeep.js",
+                    "type": "cjs require",
+                    "userRequest": "../lang/isTypedArray",
+                    "loc": "6:19-50"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 28,
+            "identifier": "fakesource-js/node_modules/lodash/lang/toPlainObject.js",
+            "name": "./~/lodash/lang/toPlainObject.js",
+            "index": 28,
+            "index2": 24,
+            "size": 726,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/internal/baseMergeDeep.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 25,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/baseMergeDeep.js",
+                    "module": "./~/lodash/internal/baseMergeDeep.js",
+                    "moduleName": "./~/lodash/internal/baseMergeDeep.js",
+                    "type": "cjs require",
+                    "userRequest": "../lang/toPlainObject",
+                    "loc": "7:20-52"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 29,
+            "identifier": "fakesource-js/node_modules/lodash/internal/baseCopy.js",
+            "name": "./~/lodash/internal/baseCopy.js",
+            "index": 29,
+            "index2": 23,
+            "size": 545,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/lang/toPlainObject.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 28,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/lang/toPlainObject.js",
+                    "module": "./~/lodash/lang/toPlainObject.js",
+                    "moduleName": "./~/lodash/lang/toPlainObject.js",
+                    "type": "cjs require",
+                    "userRequest": "../internal/baseCopy",
+                    "loc": "1:15-46"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 30,
+            "identifier": "fakesource-js/node_modules/lodash/object/keys.js",
+            "name": "./~/lodash/object/keys.js",
+            "index": 30,
+            "index2": 27,
+            "size": 1299,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/internal/baseMerge.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 23,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/baseMerge.js",
+                    "module": "./~/lodash/internal/baseMerge.js",
+                    "moduleName": "./~/lodash/internal/baseMerge.js",
+                    "type": "cjs require",
+                    "userRequest": "../object/keys",
+                    "loc": "8:11-36"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 31,
+            "identifier": "fakesource-js/node_modules/lodash/internal/shimKeys.js",
+            "name": "./~/lodash/internal/shimKeys.js",
+            "index": 31,
+            "index2": 26,
+            "size": 1141,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/object/keys.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 30,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/object/keys.js",
+                    "module": "./~/lodash/object/keys.js",
+                    "moduleName": "./~/lodash/object/keys.js",
+                    "type": "cjs require",
+                    "userRequest": "../internal/shimKeys",
+                    "loc": "4:15-46"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 32,
+            "identifier": "fakesource-js/node_modules/lodash/internal/createAssigner.js",
+            "name": "./~/lodash/internal/createAssigner.js",
+            "index": 32,
+            "index2": 33,
+            "size": 1293,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/object/merge.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 22,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/object/merge.js",
+                    "module": "./~/lodash/object/merge.js",
+                    "moduleName": "./~/lodash/object/merge.js",
+                    "type": "cjs require",
+                    "userRequest": "../internal/createAssigner",
+                    "loc": "2:21-58"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 33,
+            "identifier": "fakesource-js/node_modules/lodash/internal/bindCallback.js",
+            "name": "./~/lodash/internal/bindCallback.js",
+            "index": 33,
+            "index2": 30,
+            "size": 1219,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/internal/createAssigner.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 32,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/createAssigner.js",
+                    "module": "./~/lodash/internal/createAssigner.js",
+                    "moduleName": "./~/lodash/internal/createAssigner.js",
+                    "type": "cjs require",
+                    "userRequest": "./bindCallback",
+                    "loc": "1:19-44"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 34,
+            "identifier": "fakesource-js/node_modules/lodash/utility/identity.js",
+            "name": "./~/lodash/utility/identity.js",
+            "index": 34,
+            "index2": 29,
+            "size": 355,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/internal/bindCallback.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 33,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/bindCallback.js",
+                    "module": "./~/lodash/internal/bindCallback.js",
+                    "moduleName": "./~/lodash/internal/bindCallback.js",
+                    "type": "cjs require",
+                    "userRequest": "../utility/identity",
+                    "loc": "1:15-45"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 35,
+            "identifier": "fakesource-js/node_modules/lodash/internal/isIterateeCall.js",
+            "name": "./~/lodash/internal/isIterateeCall.js",
+            "index": 35,
+            "index2": 31,
+            "size": 906,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/internal/createAssigner.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 32,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/createAssigner.js",
+                    "module": "./~/lodash/internal/createAssigner.js",
+                    "moduleName": "./~/lodash/internal/createAssigner.js",
+                    "type": "cjs require",
+                    "userRequest": "./isIterateeCall",
+                    "loc": "2:21-48"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 36,
+            "identifier": "fakesource-js/node_modules/lodash/function/restParam.js",
+            "name": "./~/lodash/function/restParam.js",
+            "index": 36,
+            "index2": 32,
+            "size": 1899,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/internal/createAssigner.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 32,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/createAssigner.js",
+                    "module": "./~/lodash/internal/createAssigner.js",
+                    "moduleName": "./~/lodash/internal/createAssigner.js",
+                    "type": "cjs require",
+                    "userRequest": "../function/restParam",
+                    "loc": "3:16-48"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 37,
+            "identifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/user.js",
+            "name": "./src/user.js",
+            "index": 37,
+            "index2": 36,
+            "size": 2959,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/fakesource.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 0,
+                    "moduleIdentifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/fakesource.js",
+                    "module": "./src/fakesource.js",
+                    "moduleName": "./src/fakesource.js",
+                    "type": "cjs require",
+                    "userRequest": "./user",
+                    "loc": "14:12-29"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 38,
+            "identifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/metadata.js",
+            "name": "./src/metadata.js",
+            "index": 38,
+            "index2": 42,
+            "size": 19597,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/fakesource.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 0,
+                    "moduleIdentifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/fakesource.js",
+                    "module": "./src/fakesource.js",
+                    "moduleName": "./src/fakesource.js",
+                    "type": "cjs require",
+                    "userRequest": "./metadata",
+                    "loc": "18:16-37"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 39,
+            "identifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/util.js",
+            "name": "./src/util.js",
+            "index": 39,
+            "index2": 41,
+            "size": 759,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/metadata.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 38,
+                    "moduleIdentifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/metadata.js",
+                    "module": "./src/metadata.js",
+                    "moduleName": "./src/metadata.js",
+                    "type": "cjs require",
+                    "userRequest": "./util",
+                    "loc": "29:12-29"
+                },
+                {
+                    "moduleId": 45,
+                    "moduleIdentifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/project.js",
+                    "module": "./src/project.js",
+                    "moduleName": "./src/project.js",
+                    "type": "cjs require",
+                    "userRequest": "./util",
+                    "loc": "23:12-29"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 40,
+            "identifier": "fakesource-js/node_modules/lodash/object/get.js",
+            "name": "./~/lodash/object/get.js",
+            "index": 40,
+            "index2": 40,
+            "size": 951,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/util.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 39,
+                    "moduleIdentifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/util.js",
+                    "module": "./src/util.js",
+                    "moduleName": "./src/util.js",
+                    "type": "cjs require",
+                    "userRequest": "lodash/object/get",
+                    "loc": "11:23-51"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 41,
+            "identifier": "fakesource-js/node_modules/lodash/internal/baseGet.js",
+            "name": "./~/lodash/internal/baseGet.js",
+            "index": 41,
+            "index2": 37,
+            "size": 750,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/object/get.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 40,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/object/get.js",
+                    "module": "./~/lodash/object/get.js",
+                    "moduleName": "./~/lodash/object/get.js",
+                    "type": "cjs require",
+                    "userRequest": "../internal/baseGet",
+                    "loc": "1:14-44"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 42,
+            "identifier": "fakesource-js/node_modules/lodash/internal/toPath.js",
+            "name": "./~/lodash/internal/toPath.js",
+            "index": 42,
+            "index2": 39,
+            "size": 806,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/object/get.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 40,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/object/get.js",
+                    "module": "./~/lodash/object/get.js",
+                    "moduleName": "./~/lodash/object/get.js",
+                    "type": "cjs require",
+                    "userRequest": "../internal/toPath",
+                    "loc": "2:13-42"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 43,
+            "identifier": "fakesource-js/node_modules/lodash/internal/baseToString.js",
+            "name": "./~/lodash/internal/baseToString.js",
+            "index": 43,
+            "index2": 38,
+            "size": 329,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/lodash/internal/toPath.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 42,
+                    "moduleIdentifier": "fakesource-js/node_modules/lodash/internal/toPath.js",
+                    "module": "./~/lodash/internal/toPath.js",
+                    "moduleName": "./~/lodash/internal/toPath.js",
+                    "type": "cjs require",
+                    "userRequest": "./baseToString",
+                    "loc": "1:19-44"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 44,
+            "identifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/execution.js",
+            "name": "./src/execution.js",
+            "index": 44,
+            "index2": 43,
+            "size": 3878,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/fakesource.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 0,
+                    "moduleIdentifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/fakesource.js",
+                    "module": "./src/fakesource.js",
+                    "moduleName": "./src/fakesource.js",
+                    "type": "cjs require",
+                    "userRequest": "./execution",
+                    "loc": "22:17-39"
+                }
+            ],
+            "source": ""
+        },
+        {
+            "id": 45,
+            "identifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/project.js",
+            "name": "./src/project.js",
+            "index": 45,
+            "index2": 44,
+            "size": 5743,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "assets": [
+
+            ],
+            "issuer": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/fakesource.js",
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "reasons": [
+                {
+                    "moduleId": 0,
+                    "moduleIdentifier": "fakesource-js/node_modules/babel-loader/index.js!fakesource-js/src/fakesource.js",
+                    "module": "./src/fakesource.js",
+                    "moduleName": "./src/fakesource.js",
+                    "type": "cjs require",
+                    "userRequest": "./project",
+                    "loc": "26:15-35"
+                }
+            ],
+            "source": ""
+        }
+    ],
+    "filteredModules": 0,
+    "children": [
+
+    ]
+}
