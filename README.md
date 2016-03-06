@@ -1,0 +1,6 @@
+# webpack-analyzer
+
+
+## License
+
+MIT
