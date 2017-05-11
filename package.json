@@ -23,7 +23,7 @@
   "dependencies": {
     "colors": "1.1.2",
     "commander": "2.9.0",
-    "filesize": "3.2.1",
-    "repeat-string": "1.5.4"
+    "filesize": "3.5.9",
+    "repeat-string": "1.6.1"
   }
 }
