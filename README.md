@@ -1,5 +1,7 @@
 # webpack-analyzer
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/crudo/webpack-analyzer.svg)](https://greenkeeper.io/)
+
 ## Install
 
 ```
